@@ -24,12 +24,7 @@ public class UsuarioController {
 		return"listarUsuario";
 	}
 	
-	@PostMapping("/salvarUsuario")
-	public String salvarCategoria(@ModelAttribute Usuario usuario) {
-		usuarioRepository.save(usuario);
-		return "redirect:/usuarios/listarUsuario";
-		
-	}
+	
 	
 	
 	

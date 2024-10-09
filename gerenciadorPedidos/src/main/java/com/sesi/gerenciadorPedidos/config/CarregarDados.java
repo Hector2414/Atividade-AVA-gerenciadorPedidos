@@ -44,7 +44,13 @@ public class CarregarDados {
 			produto.setEstoque(2);
 			produto.setPreco(35);
 			
+			Produto produto2 = new Produto();
+			produto2.setNome("Smart-watch");
+			produto2.setEstoque(1);
+			produto2.setPreco(1500);
+			
 			
 			produtoRepository.save(produto);
+			produtoRepository.save(produto2);
 		};}
 }
